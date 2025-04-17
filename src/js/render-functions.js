@@ -41,6 +41,7 @@ export function createGallery(images) {
         </li>`
     )
     .join('');
+  gallery.refresh();
 }
 
 export function clearGallery() {
